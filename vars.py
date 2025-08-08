@@ -24,7 +24,7 @@ THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://i.fbcd.co/produ
 # Web Server Configuration
 WEB_SERVER = os.environ.get("WEB_SERVER", "False").lower() == "true"
 WEBHOOK = True  # Don't change this
-PORT = int(os.environ.get("PORT", "8090"))
+PORT = int(os.environ.get("PORT", "8080"))
 
 # Message Formats
 AUTH_MESSAGES = {
@@ -59,5 +59,6 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
